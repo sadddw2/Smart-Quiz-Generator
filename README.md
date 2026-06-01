@@ -1,6 +1,7 @@
 # Smart-Quiz-Generator
 
-## Materi Management
-- Upload PDF
-- Download PDF
-- Daftar Materi
+## Quiz Management
+- Tambah Kuis
+- Edit Kuis
+- Hapus Kuis
+- Kerjakan Kuis
