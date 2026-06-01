@@ -1,7 +1,6 @@
 # Smart-Quiz-Generator
 
-## Authentication
-- Login Multi Role
-- Dashboard Admin
-- Dashboard Dosen
-- Dashboard Mahasiswa
+## Materi Management
+- Upload PDF
+- Download PDF
+- Daftar Materi
