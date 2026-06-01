@@ -1,7 +1,5 @@
 # Smart-Quiz-Generator
 
-## Quiz Management
-- Tambah Kuis
-- Edit Kuis
-- Hapus Kuis
-- Kerjakan Kuis
+## Bug Fixes
+- Validasi email unik saat registrasi
+- Perbaikan redirect login berdasarkan role
