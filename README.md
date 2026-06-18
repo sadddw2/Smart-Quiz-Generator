@@ -1,119 +1,59 @@
-# Smart Quiz Generator
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-Smart Quiz Generator adalah aplikasi berbasis Laravel yang digunakan untuk membuat dan mengelola kuis secara online bagi dosen dan mahasiswa.
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-## Features
+## About Laravel
 
-* Login Multi Role (Admin, Dosen, Mahasiswa)
-* Upload Materi PDF
-* Manajemen Kuis
-* Bank Soal
-* Hasil Kuis
-* Role-Based Dashboard
-* Feature Testing
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
----
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-# Requirements
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-* PHP 8.2+
-* Composer
-* Node.js
-* NPM
-* MySQL
-* Laravel 12
+## Learning Laravel
 
----
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
 
-# Getting Started
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## 1. Clone Repository
+## Laravel Sponsors
 
-bash
-git clone https://github.com/sadddw2/Smart-Quiz-Generator.git
-cd Smart-Quiz-Generator
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
+### Premium Partners
 
-## 2. Install Dependencies
+- **[Vehikl](https://vehikl.com)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Redberry](https://redberry.international/laravel-development)**
+- **[Active Logic](https://activelogic.com)**
 
-bash
-composer install
-npm install
+## Contributing
 
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## 3. Configure Environment
+## Code of Conduct
 
-Copy file .env
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-bash
-cp .env.example .env
+## Security Vulnerabilities
 
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-Atur konfigurasi database pada file .env
+## License
 
-.env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=smart_quiz_generator
-DB_USERNAME=root
-DB_PASSWORD=
-
-
-## 4. Generate Application Key
-
-bash
-php artisan key:generate
-
-
-## 5. Run Migration
-
-bash
-php artisan migrate
-
-
-## 6. Create Storage Link
-
-bash
-php artisan storage:link
-
-
-## 7. Run Development Server
-
-bash
-php artisan serve
-
-
-Aplikasi dapat diakses melalui:
-
-txt
-http://127.0.0.1:8000
-
-
----
-
-# Testing
-
-Menjalankan seluruh test:
-
-bash
-php artisan test
-
-
-Menjalankan test tertentu:
-
-bash
-php artisan test tests/Feature/UserAccessTest.php
-php artisan test tests/Feature/KuisTest.php
-php artisan test tests/Feature/UserCrudTest.php
-php artisan test tests/Feature/RoleAccessTest.php
-
-
----
-
-# Author
-
-Ardhafillah
-
-Application Project III
-
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
