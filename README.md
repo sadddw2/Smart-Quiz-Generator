@@ -29,7 +29,7 @@ Smart Quiz Generator merupakan aplikasi berbasis web yang dikembangkan untuk mem
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/smart-quiz-generator.git
+git clone https://github.com/sadddw2/smart-quiz-generator.git
 cd smart-quiz-generator
 ```
 
