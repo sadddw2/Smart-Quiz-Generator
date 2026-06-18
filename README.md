@@ -152,4 +152,4 @@ Muhammad Ismail Ardhafillah
 
 Program Studi Informatika
 
-STIKI Malang
+UBHINUS
